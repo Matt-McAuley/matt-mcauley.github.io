@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - matt-mcauley
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - matt-mcauley/GymBuddy
+  - matt-mcauley/Exercise-Engine
+  - matt-mcauley/To-Do-Manager
+  - matt-mcauley/cs-rereminibot
+  - matt-mcauley/Caml-Capital
