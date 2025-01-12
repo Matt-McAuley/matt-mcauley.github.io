@@ -45,7 +45,7 @@ linkedin_username: matthew-mcauley-b48983251 # your LinkedIn user name
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo: https://matt-mcauley.github.io/assets/img/resume.png # can be png, svg, jpg
-  title: Resume
-  url: https://matt-mcauley.github.io/assets/pdf/Matthew_McAuley_Resume.pdf
+#custom_social: # can be any name here other than the ones already defined above
+#  logo: https://matt-mcauley.github.io/assets/img/resume.png # can be png, svg, jpg
+#  title: Resume
+#  url: https://matt-mcauley.github.io/assets/pdf/Matthew_McAuley_Resume.pdf

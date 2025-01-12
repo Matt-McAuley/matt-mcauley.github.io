@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: all
+title: GymBuddy
+description: Fitness companion mobile app for iOS
+img: assets/img/3.jpg
+importance: 2
+category:
 ---
 
 Every project has a beautiful feature showcase page.
