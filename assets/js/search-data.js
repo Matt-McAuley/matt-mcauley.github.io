@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
+  },{id: "nav-resume",
+          title: "Resume",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/resume/";
+          },
+        },{id: "nav-projects",
           title: "Projects",
           description: "",
           section: "Navigation",
@@ -30,26 +37,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+        },{id: "projects-caml-capital",
+          title: 'Caml Capital',
+          description: "Terminal recreation of Monopoly done in OCaml",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/Caml_Capital/";
+            },},{id: "projects-exercise-engine",
+          title: 'Exercise Engine',
+          description: "Information retrieval system for exercises",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/Exercise_Engine/";
+            },},{id: "projects-gymbuddy",
+          title: 'GymBuddy',
+          description: "Fitness companion mobile app for iOS",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/GymBuddy/";
+            },},{id: "projects-to-do-manager",
+          title: 'To-Do Manager',
+          description: "A website for managing your to-do list",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
+              window.location.href = "/projects/To-Do_Manager/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
