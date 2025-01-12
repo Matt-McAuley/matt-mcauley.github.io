@@ -8,7 +8,7 @@ category: ' '
 related_publications: false
 ---
 
-# Contents
+## Contents
 
 - [Summary](#summary)
 - [Images](#images--videos)
@@ -16,7 +16,7 @@ related_publications: false
 - [Online Hosting](#online-hosting)
 - [Authors](#authors)
 
-# Summary
+## Summary
 
 This is a project for **CS/INFO 4300 class at Cornell University**, where we worked
 in a 5-person software development team to build an information retrieval system of our
@@ -34,50 +34,57 @@ build an appealing frontend, and utilize the methods learned in class to produce
 
 I then individually forked this repository to host it on an AWS EC2 instance to learn about containerization, cloud computing, and DevOps.
 
-# Images & Videos
+## Images & Videos
 
-### Home Page
-![Home Page Image](../assets/img/Exercise_Engine/home.png)
+#### Home Page
+![Home Page Image](https://matt-mcauley.github.io/assets/img/Exercise_Engine/home.png)
 
-### Results Page
-![Results Page Image](../assets/img/Exercise_Engine/results.png)
+#### Results Page
+![Results Page Image](https://matt-mcauley.github.io/assets/img/Exercise_Engine/results.png)
 
-### Video Demo
-[![Exercise Engine Video Demo](../assets/img/Exercise_Engine/video.mp4)]
+#### Video Demo
+https://matt-mcauley.github.io/assets/img/Exercise_Engine/video.mp4
 
-# Running locally
+<div style="text-align: center;">
+  <video width="640" height="360" controls>
+    <source src="https://matt-mcauley.github.io/assets/img/Exercise_Engine/video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
-### Step 1: Download the source code
+## Running locally
+
+#### Step 1: Download the source code
 Clone or download a zip file of the source code onto your device
 
 
-### Step 2: Set up a virtual environment
+#### Step 2: Set up a virtual environment
 Create a virtual environment in Python (or using conda if more familiar):
 
 Run `python -m venv <virtual_env_name>` in your project directory to create a new virtual environment, remember to change <virtual_env_name> to your preferred environment name.
 
-### Step 3: Install dependencies
+#### Step 3: Install dependencies
 You need to install dependencies by running `python -m pip install -r requirements.txt` in the backend folder.
 
-### Step 4: Command to run project locally:
+#### Step 4: Command to run project locally:
 ```python backend/app.py```
 
-# Online Hosting
+## Online Hosting
 The website is hosted on an [AWS Server](http://18.218.132.35).
 
-# Authors
+## Authors
 
-### Matthew McAuley
+#### Matthew McAuley
 mwm223@cornell.edu
 
-### Sharanya Dabas
+#### Sharanya Dabas
 sd699@cornell.edu
 
-### Eman Abdu
+#### Eman Abdu
 ema88@cornell.edu
 
-### Alex Kushnirsky
+#### Alex Kushnirsky
 ask256@cornell.edu
 
-### RJ Powers
+#### RJ Powers
 rgp58@cornell.edu
