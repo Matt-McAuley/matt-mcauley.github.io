@@ -4,7 +4,7 @@ title: Exercise Engine
 description: Information retrieval system for exercises
 img: assets/img/12.jpg
 importance: 1
-category: 
+category: ' '
 related_publications: false
 ---
 

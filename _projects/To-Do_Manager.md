@@ -4,7 +4,7 @@ title: To-Do Manager
 description: A website for managing your to-do list
 img: assets/img/7.jpg
 importance: 3
-category:
+category: ' '
 ---
 
 Every project has a beautiful feature showcase page.

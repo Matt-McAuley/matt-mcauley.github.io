@@ -4,7 +4,7 @@ title: GymBuddy
 description: Fitness companion mobile app for iOS
 img: assets/img/3.jpg
 importance: 2
-category:
+category: ' '
 ---
 
 Every project has a beautiful feature showcase page.
