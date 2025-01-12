@@ -11,32 +11,35 @@ related_publications: false
 ## Contents
 
 - [Summary](#summary)
+- [Online Hosting](#online-hosting)
 - [Images](#images--videos)
 - [Running Locally](#running-locally)
-- [Online Hosting](#online-hosting)
 - [Authors](#authors)
-
-<div class="big-space"></div>
-
-## Summary
 
 <div class="small-space"></div>
 
-This is a project for **CS/INFO 4300 class at Cornell University**, where we worked
-in a 5-person software development team to build an information retrieval system of our
-choosing. We decided to return the most similar exercises given an exercise queried either
-chosen from the dropdown or given freeform. Our website uses HTML, JS, and CSS to make
-backend requests and display the results in an aesthetically pleasing way. We allow for
-filtering based on muscle group, difficulty, and equipment used and display the reviews
-taken from [bodybuilding.com](https://bodybuilding.com), the exercise description, the muscle 
-groups and equipment used, the most relevant YouTube search, and the similarity score. The backend 
-is a python app built using the Flask framework which takes in our Selenium-web scraped dataset 
-and performs SVD text-mining on it. It then uses cosine similarity on the embeddings to return the top 5 most similar 
-results that fit within the filters. This project taught us lots about utilizing agile development 
-within a large software development team to build a product. We discovered how to webscrape data, 
-build an appealing frontend, and utilize the methods learned in class to produce an IR system on the backend.
+## Summary
 
-I then individually forked this repository to host it on an AWS EC2 instance to learn about containerization, cloud computing, and DevOps.
+This is a project for **CS/INFO 4300 at Cornell University**, where we worked
+in a 5-person software development team to build an information retrieval system of our
+choosing. We decided to return the most similar exercises given an exercise queried by the user. The exercise could be either
+chosen from the dropdown or given freeform. Our website uses HTML, JS, and CSS to make
+backend requests, apply filters, and display the results in an aesthetically pleasing way. We allow for
+filtering based on muscle group, difficulty, and equipment used. The reviews displayed are
+taken from [bodybuilding.com](https://bodybuilding.com) where users can rate exercises on a scale from 0-10. We also show the exercise description, muscle 
+groups, equipment used, most relevant YouTube search, and similarity score. The backend 
+is a python app built using the Flask framework. It loads our Selenium-webscraped dataset 
+and performs SVD text-mining on it. It then uses cosine similarity on the embeddings to return the top 5 most similar 
+results that fit within the filters. This project gave me insight into utilizing agile development 
+within a sizeable software development team to build a product. I learned about webscraping data, 
+building an appealing frontend with static HTML, CSS, and JS, and utilizing the methods learned in class to produce an IR system on the backend.
+
+I then individually forked this repository and created a Dockerfile to host it on an AWS EC2 instance to learn about containerization, cloud computing, and DevOps.
+
+<div class="big-space"></div>
+
+## Online Hosting
+The website is hosted on an [AWS Server](http://18.218.132.35).
 
 <div class="big-space"></div>
 
@@ -45,18 +48,19 @@ I then individually forked this repository to host it on an AWS EC2 instance to 
 <div class="small-space"></div>
 
 #### Home Page
-<img src="https://matt-mcauley.github.io/assets/img/Exercise_Engine/home.png" alt="Home Page Image" style="width: 650px">
+<img src="https://matt-mcauley.github.io/assets/img/Exercise_Engine/home.png" alt="Home Page Image" style="width: 1000px">
 
 <div class="small-space"></div>
 
 #### Results Page
-<img src="https://matt-mcauley.github.io/assets/img/Exercise_Engine/results.png" alt="Results Page Image" style="width: 650px">
+<img src="https://matt-mcauley.github.io/assets/img/Exercise_Engine/results.png" alt="Results Page Image" style="width: 1000px">
 
 <div class="small-space"></div>
 
 #### Video Demo
-<div style="text-align: center;">
-  <video width="640" height="360" controls>
+
+<div style="text-align: left;">
+  <video width="1000" height="563" controls>
     <source src="https://matt-mcauley.github.io/assets/img/Exercise_Engine/video.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -90,26 +94,23 @@ You need to install dependencies by running `python -m pip install -r requiremen
 
 <div class="big-space"></div>
 
-## Online Hosting
-The website is hosted on an [AWS Server](http://18.218.132.35).
-
-<div class="big-space"></div>
-
 ## Authors
 
 <div class="small-space"></div>
 
-#### Matthew McAuley
-mwm223@cornell.edu
-
-#### Sharanya Dabas
-sd699@cornell.edu
-
-#### Eman Abdu
-ema88@cornell.edu
-
-#### Alex Kushnirsky
-ask256@cornell.edu
-
-#### RJ Powers
-rgp58@cornell.edu
+<table style="border-collapse: collapse; border:none;">
+  <tr  style="border:none;">
+    <td style="border:none;"><strong>Matthew McAuley</strong></td>
+    <td style="border:none;"><strong>Sharanya Dabas</strong></td>
+    <td style="border:none;"><strong>Eman Abdu</strong></td>
+    <td style="border:none;"><strong>Alex Kushnirsky</strong></td>
+    <td style="border:none;"><strong>RJ Powers</strong></td>
+  </tr>
+  <tr style="border:none;">
+    <td style="border:none;">mwm223@cornell.edu</td>
+    <td style="border:none;">sd699@cornell.edu</td>
+    <td style="border:none;">ema88@cornell.edu</td>
+    <td style="border:none;">ask256@cornell.edu</td>
+    <td style="border:none;">rgp58@cornell.edu</td>
+  </tr>
+</table>
