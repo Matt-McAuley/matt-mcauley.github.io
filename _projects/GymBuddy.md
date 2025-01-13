@@ -2,7 +2,7 @@
 layout: page
 title: GymBuddy
 description: Fitness companion mobile app
-img: 
+img: assets/img/GymBuddy/home.PNG
 importance: 2
 category: ' '
 ---
@@ -31,25 +31,25 @@ Fitness companion mobile app!
 <div class="small-space"></div>
 
 #### Home Page
-<img src="https://matt-mcauley.github.io/assets/img/GymBuddy/home.PNG" alt="Home Page Image" style="width: 1000px">
+<img src="https://matt-mcauley.github.io/assets/img/GymBuddy/home.PNG" alt="Home Page Image" style="height: 500px">
 
 <div class="small-space"></div>
 
 #### Programs Page
-<img src="https://matt-mcauley.github.io/assets/img/GymBuddy/programs.PNG" alt="Programs Page Image" style="width: 1000px">
+<img src="https://matt-mcauley.github.io/assets/img/GymBuddy/programs.PNG" alt="Programs Page Image" style="height: 500px">
 
 <div class="small-space"></div>
 
 #### Music Page
-<img src="https://matt-mcauley.github.io/assets/img/GymBuddy/music.PNG" alt="Music Page Image" style="width: 1000px">
+<img src="https://matt-mcauley.github.io/assets/img/GymBuddy/music.PNG" alt="Music Page Image" style="height: 500px">
 
 <div class="small-space"></div>
 
 #### Video Demo
 
 <div style="text-align: left;">
-  <video width="1000" height="563" controls>
-    <source src="https://matt-mcauley.github.io/assets/img/To-GymBuddy/video.mp4" type="video/mp4">
+  <video width="889" height="500" controls>
+    <source src="https://matt-mcauley.github.io/assets/img/GymBuddy/video.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
