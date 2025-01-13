@@ -7,6 +7,10 @@ importance: 3
 category: ' '
 ---
 
+## GitHub Repository
+[To-Do Manager](https://github.com/Matt-McAuley/https://github.com/Matt-McAuley/To-Do-Manager)
+
+<div class="small-space"></div>
 
 ## Contents
 
@@ -20,19 +24,25 @@ category: ' '
 
 ## Summary
 
-This is a personal project where I created a website to manage 'Todos' which are
-contained within projects. Each 'Todo' has a title, description, due date, and priority and
-each project has a title. Todos can be expanded to view a popup of all their information. Both
-Todos and Projects can be edited or deleted. Clicking the add buttons creates a popup for the user
-to input the information for whichever they are creating. Todos are sorted by due date and projects are sorted
-alphabetically. The frontend for the project was developed using React, and the components and structure
-are listed under the src/ directory. The backend for storing the information is done in Flask and the
-database is SQLAlchemy which is all under the backend/ directory. Any action done on the website is stored
-within the database and upon page refresh is reloaded so no data is lost. Once the frontend was finished,
-the static files were addedto the backend folder and are SSR by Flask as a template. Fetch was used to
-communicate between the frontend and the backend API. This project taught me about Typescript, using React and JS libraries,
-creating an API with flask, using SQL and an ORM database, SSR, fetching data, and full-stack software development. It was
-very rewarding to develop this website over the course of months, integrating new things that I learned and being able
+This is a personal project where I created a website to manage 'To-Dos' which are
+contained within projects. Each 'To-Do' has a title, description, due date, and priority and
+each project has a title. To-Dos can be expanded to view a popup of all their information. Both
+To-Dos and Projects can be edited or deleted. Clicking the add buttons creates a popup form for the user
+to input the information for whichever they are creating. To-Dos are sorted by due date and projects are sorted
+alphabetically. 
+
+The frontend for the project was developed using React and Typescript, and the components and structure
+are listed under the src/ directory. @emotion/styled CSS in TS was used to keep the CSS and its respective component contained together neatly.
+I utilized React Router to created client side routing between sign up, login, and home pages. Users can create an account
+on these pages and log in to view or edit their Projects and To-Dos.
+
+The backend API for persisting user data and logging in is done in Flask and the database is SQLAlchemy which is all contained under the backend/ directory. 
+User accounts are encrypted and stored in the database and JWTs are used to authenticate users, with tokens being stored in HTTPOnly cookies. 
+I then created a Dockerfile to containerize the project and allow for easy deployment on an OCI instance.
+
+This project taught me about Typescript, using React and JS libraries, creating an API with flask, using SQL and an ORM database, 
+SSR, CSR, fetching data, authentication, full-stack software development, containerization, and cloud computing. It was
+very rewarding to develop this website iteratively over the course of many months, integrating new things that I learned and being able
 to produce a full-stack website that is aesthetically pleasing and functional.
 
 <div class="small-space"></div>
