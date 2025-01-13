@@ -8,7 +8,7 @@ category: ' '
 ---
 
 ## GitHub Repository
-[To-Do Manager](https://github.com/Matt-McAuley/https://github.com/Matt-McAuley/To-Do-Manager)
+[To-Do Manager](https://github.com/Matt-McAuley/To-Do-Manager)
 
 <div class="small-space"></div>
 
@@ -36,7 +36,7 @@ are listed under the src/ directory. @emotion/styled CSS in TS was used to keep 
 I utilized React Router to created client side routing between sign up, login, and home pages. Users can create an account
 on these pages and log in to view or edit their Projects and To-Dos.
 
-The backend API for persisting user data and logging in is done in Flask and the database is SQLAlchemy which is all contained under the backend/ directory. 
+The backend API for persisting user data and logging in is done with Flask and the database is SQLAlchemy which is all contained under the backend/ directory. 
 User accounts are encrypted and stored in the database and JWTs are used to authenticate users, with tokens being stored in HTTPOnly cookies. 
 I then created a Dockerfile to containerize the project and allow for easy deployment on an OCI instance.
 
@@ -61,12 +61,12 @@ Password: password
 <div class="small-space"></div>
 
 #### Login Page
-<img src="https://matt-mcauley.github.io/assets/img/Do_Manager/login.png" alt="Login Page Image" style="width: 1000px">
+<img src="https://matt-mcauley.github.io/assets/img/To-Do_Manager/login.png" alt="Login Page Image" style="width: 1000px">
 
 <div class="small-space"></div>
 
 #### Home Page
-<img src="https://matt-mcauley.github.io/assets/img/To-Do_Manager/home" alt="Home Page Image" style="width: 1000px">
+<img src="https://matt-mcauley.github.io/assets/img/To-Do_Manager/home.png" alt="Home Page Image" style="width: 1000px">
 
 <div class="small-space"></div>
 
