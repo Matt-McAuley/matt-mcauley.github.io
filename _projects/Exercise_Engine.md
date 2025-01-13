@@ -36,12 +36,12 @@ building an appealing frontend with static HTML, CSS, and JS, and utilizing the 
 
 I then individually forked this repository and created a Dockerfile to host it on an AWS EC2 instance to learn about containerization, cloud computing, and DevOps.
 
-<div class="big-space"></div>
+<div class="small-space"></div>
 
 ## Online Hosting
-The website is hosted on an [AWS Server](http://18.218.132.35).
+The website is hosted on an [AWS Instance](http://18.218.132.35).
 
-<div class="big-space"></div>
+<div class="small-space"></div>
 
 ## Images & Videos
 
@@ -66,7 +66,7 @@ The website is hosted on an [AWS Server](http://18.218.132.35).
   </video>
 </div>
 
-<div class="big-space"></div>
+<div class="small-space"></div>
 
 ## Running locally
 
@@ -92,11 +92,9 @@ You need to install dependencies by running `python -m pip install -r requiremen
 #### Step 4: Command to run project locally:
 ```python backend/app.py```
 
-<div class="big-space"></div>
+<div class="small-space"></div>
 
 ## Authors
-
-<div class="small-space"></div>
 
 <table style="border-collapse: collapse; border:none;">
   <tr  style="border:none;">
