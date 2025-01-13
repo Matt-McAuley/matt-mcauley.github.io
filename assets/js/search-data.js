@@ -49,7 +49,7 @@ ninja.data = [{
               window.location.href = "/projects/Exercise_Engine/";
             },},{id: "projects-gymbuddy",
           title: 'GymBuddy',
-          description: "Fitness companion mobile app for iOS",
+          description: "Fitness companion mobile app",
           section: "Projects",handler: () => {
               window.location.href = "/projects/GymBuddy/";
             },},{id: "projects-to-do-manager",
