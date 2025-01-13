@@ -2,7 +2,7 @@
 layout: page
 title: GymBuddy
 description: Fitness companion mobile app
-img: assets/img/GymBuddy/home.PNG
+img: assets/img/GymBuddy/banner.PNG
 importance: 2
 category: ' '
 ---
