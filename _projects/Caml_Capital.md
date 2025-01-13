@@ -9,14 +9,14 @@ category: ' '
 
 
 ## GitHub Repository
-[Exercise Engine](https://github.com/Matt-McAuley/Caml_Capital)
+[Caml Capital](https://github.com/Matt-McAuley/Caml-Capital)
 
 <div class="small-space"></div>
 
 ## Contents
 
 - [Summary](#summary)
-- [Images](#images--videos)
+- [Images & Videos](#images--videos)
 - [Running Locally](#running-locally)
 - [Authors](#authors)
 
@@ -57,7 +57,7 @@ all necessary to make this project successful.
 
 <div style="text-align: left;">
   <video width="1000" height="563" controls>
-    <source src="https://matt-mcauley.github.io/assets/img/Caml_Capital/video.mp4" type="video/mp4">
+    <source src="https://matt-mcauley.github.io/assets/img/Caml_Capital/gameplay.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>

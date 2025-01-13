@@ -17,7 +17,7 @@ related_publications: false
 
 - [Summary](#summary)
 - [Online Hosting](#online-hosting)
-- [Images](#images--videos)
+- [Images & Videos](#images--videos)
 - [Running Locally](#running-locally)
 - [Authors](#authors)
 
