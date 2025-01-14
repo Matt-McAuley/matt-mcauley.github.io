@@ -39,14 +39,14 @@ The website is hosted on [GitHub Pages](https://matt-mcauley.github.io/etch-a-sk
 <div class="small-space"></div>
 
 #### Home Page
-<img src="https://matt-mcauley.github.io/assets/img/Etch-A-Sketch/home.png" alt="Home Page Image" style="width: 80%">
+<img src="https://matt-mcauley.github.io/assets/img/Etch-A-Sketch/home.png" alt="Home Page Image" style="width: 95%">
 
 <div class="small-space"></div>
 
-#### Video Demo
+#### Demo Video
 
 <div style="text-align: left;">
-  <video width="80%" controls>
+  <video width="95%" controls>
     <source src="https://matt-mcauley.github.io/assets/img/Etch-A-Sketch/video.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
