@@ -24,18 +24,40 @@ category: ' '
 
 ## Summary
 
-This is a project for **CS 3110 at Cornell University**, where we
-worked in a team of 3 to develop any software of our choosing over the course of the semester.
-We chose to make an OCaml terminal recreation of the board game Monopoly. Our code is mostly functional
-with small imperative features to control property rent. We have most of our game logic within
-bin/main.ml where the game loop resides and the code determines what should happen on each player's turn.
-We have compilation units within lib to represent Property and Player data types. Our data for the information
-on each property is stored within a CSV file in data/ along with different ASCII artworks. Our compilation
-units were tested with an OUnit test suite and the rest of our code was tested manually by playing our game. We completed
-the project in multiple sprints where we had to develop working prototypes that provided client value. We then continued
-to iterate and improve until we had a product that met our standards at the end of the semester. We learned about working
-in an agile software development team, functional programming, game design, version control, and proper code testing which were
-all necessary to make this project successful.
+This was a class project for **CS 3110 at Cornell University**, where two classmates and I
+were tasked to develop any software of our choosing over the course of the semester using OCaml.
+We chose to make a terminal recreation of the board game Monopoly because we figured game design would be an interesting and challenging route.
+The game has a maximum of 4 players and gives you instructions on how to play throughout. We implemented standard features like rolling the dice,
+buying properties, buying houses/hotels, paying rent, going to jail, community chest, and chance cards.
+
+We designed two compilation units to represent the Player data structure and the Property data structure. The Player data structure
+contains the player's name, position, money, properties, and jail status. It allows for creating an empty player which represents
+when less than four players play or someone loses the game. There are standard getters and setters to assist with modifying values
+and maintaining which properties the player owns. The Property data structure contains the property's name, position, price, color, rent at each level,
+and a ref for the current level of the property. There are also getters and setters within this module to assist with creating properties
+and getting their values. The level of the property is the one imperative feature of the project as it is a ref that can be modified to
+increase the rent of the property when houses/hotels are bought. We did this so that we didn't have to recreate the entire list of properties
+every time one got updated and then give them back to each player. We thought using a ref in this case was the most efficient way to handle this.
+
+Within our data directory we have a few ASCII artworks as well as a CSV file that contains all the properties in the game and their respective
+values. We read in this CSV file and create a list of properties that we use to populate the board.
+
+Our test cases mainly focus on the Player and Property modules as testing the game loop was done through playing the game ourselves.
+The test suite for both of the compilation units is extensive and covers all the functions and their edge cases.
+
+The bulk of our code is written in bin/main.ml which controls the game loop. This file is nearly 1000 lines of code with many well documented
+functions that handle the game logic. We have functions for rolling the dice, moving the player, buying properties, buying houses/hotels,
+paying rent, and more, all done in a functional style. Functional programming often made the code more verbose, however, it is easier to reason about and
+once it compiled it was much less likely to have random bugs.
+
+This project was great for reinforcing the concepts we learned in class and applying them to a real-world application. By the end of it, I much better
+understood how to write software in a team and effectively make use of version control to manage the project. I also learned a lot about game design and
+how to implement a game loop in a functional language. Functional programming was very interesting to learn and although it would've probably been much easier
+to make the game in a language like Python, OCaml has helped me to think about problems in a different way and has made learning React much easier. We were also
+given strict requirements for the project regarding prototype stages, offering consistent client value, having good test cases, and writing effective documentation
+which are important practices to follow in the industry.
+
+A demo video displaying the main functionalities can be found below.
 
 <div class="small-space"></div>
 
@@ -64,7 +86,7 @@ all necessary to make this project successful.
 
 <div class="small-space"></div>
 
-## Running locally (requires dune and opam)
+## Running locally (requires dune and opam [and WSL for Windows])
 
 <div class="small-space"></div>
 
