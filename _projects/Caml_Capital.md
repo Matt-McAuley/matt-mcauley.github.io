@@ -17,7 +17,7 @@ category: ' '
 
 - [Summary](#summary)
 - [Images & Videos](#images--videos)
-- [Running Locally](#running-locally)
+- [Running Locally](#running-locally-requires-dune-and-opam-and-wsl-for-windows)
 - [Authors](#authors)
 
 <div class="small-space"></div>
