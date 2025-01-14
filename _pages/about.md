@@ -14,4 +14,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm currently a student studying computer science at Cornell University. I'm interested in all areas of technology including but not limited to Software Engineering, Machine Learning, and Quantitative Finance. I enjoy working with others and using technology to design algorithms, build applications, and solve challenging problems.
+I'm currently a student studying Computer Science at Cornell University in the College of Engineering. I enjoy working with others to tackle complex problems while learning new skills in the process. I have a passion for all areas of technology including but not limited to Software Development, Machine Learning, and Quantitative Finance. I'm always looking for new opportunities to grow and contribute to meaningful projects. Feel free to reach out through email or LinkedIn if you'd like to connect, or check out some of my projects that I've worked on below.
