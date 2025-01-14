@@ -50,7 +50,7 @@ to serve the HTML, CSS, and JS to the user upon visiting the root URL. For authe
 and check against it when logging in. The API handles authenticating a user with flask-jwt-extended and stores the JWT in a cookie to keep the user logged in.
 
 I then decided to host the website on an Oracle Cloud Infrastructure (OCI) instance to get more experience with cloud computing outside of AWS. I created a Dockerfile to containerize the project
-that was very similar to the one used for my [Exercise Engine](https://matt-mcauley.github.io/Exercise-Engine/) project as they have very similar structures. I created an always free ARM instance
+that was very similar to the one used for my [Exercise Engine](https://matt-mcauley.github.io/projects/Exercise_Engine/) project as they have very similar structures. I created an always free ARM instance
 on OCI and used PuTTY to SSH into the instance and run the container. I had to open the necessary ports and configure the security group to allow for incoming traffic to the website, as well as installing
 vim and Docker on the VM to get the container running. The process was very similar to AWS so it was much more straightforward this time with the only difference being that I had to use Docker buildx to build
 for a different architecture.
