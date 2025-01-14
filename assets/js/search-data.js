@@ -37,11 +37,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "projects-caml-capital",
+        },{id: "projects-calculator",
+          title: 'Calculator',
+          description: "Browser calculator with basic arithmetic operations",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Calculator/";
+            },},{id: "projects-caml-capital",
           title: 'Caml Capital',
           description: "Terminal recreation of Monopoly done in OCaml",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Caml_Capital/";
+            },},{id: "projects-embedded-jump",
+          title: 'Embedded Jump',
+          description: "Pygame recreation of Doodle Jump controlled with FRDM-KL46Z microcontroller",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Embedded_Jump/";
+            },},{id: "projects-etch-a-sketch",
+          title: 'Etch-A-Sketch',
+          description: "Web-based Etch-A-Sketch recreation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Etch_A_Sketch/";
             },},{id: "projects-exercise-engine",
           title: 'Exercise Engine',
           description: "Information retrieval system for exercises",
