@@ -66,19 +66,19 @@ A demo video displaying the main functionalities can be found below.
 <div class="small-space"></div>
 
 #### Start Screen
-<img src="https://matt-mcauley.github.io/assets/img/Caml_Capital/start.png" alt="Start Screen Image" style="width: 1000px">
+<img src="https://matt-mcauley.github.io/assets/img/Caml_Capital/start.png" alt="Start Screen Image" style="width: 80%">
 
 <div class="small-space"></div>
 
 #### Mid Game Screen
-<img src="https://matt-mcauley.github.io/assets/img/Caml_Capital/midgame.png" alt="Mid Game Screen Image" style="width: 1000px">
+<img src="https://matt-mcauley.github.io/assets/img/Caml_Capital/midgame.png" alt="Mid Game Screen Image" style="width: 80%">
 
 <div class="small-space"></div>
 
 #### Video Demo
 
 <div style="text-align: left;">
-  <video width="1000" height="563" controls>
+  <video width="80%" controls>
     <source src="https://matt-mcauley.github.io/assets/img/Caml_Capital/gameplay.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>

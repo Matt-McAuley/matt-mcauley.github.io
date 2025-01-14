@@ -40,14 +40,14 @@ The website is hosted on [GitHub Pages](https://matt-mcauley.github.io/calculato
 <div class="small-space"></div>
 
 #### Home Page
-<img src="https://matt-mcauley.github.io/assets/img/Calculator/home.png" alt="Home Page Image" style="width: 1000px">
+<img src="https://matt-mcauley.github.io/assets/img/Calculator/home.png" alt="Home Page Image" style="width: 80%">
 
 <div class="small-space"></div>
 
 #### Video Demo
 
 <div style="text-align: left;">
-  <video width="1000" height="563" controls>
+  <video width="80%" controls>
     <source src="https://matt-mcauley.github.io/assets/img/Calculator/video.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>

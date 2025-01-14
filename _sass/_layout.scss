@@ -35,7 +35,9 @@ body.sticky-bottom-footer {
 .profile {
   img {
     width: 100%;
-    margin-left: 40px;
+    @media (min-width: 576px) {
+      margin-left: 40px;
+    }
   }
 }
 

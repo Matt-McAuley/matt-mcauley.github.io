@@ -90,24 +90,24 @@ A demo video displaying the main functionalities can be found below.
 <div class="small-space"></div>
 
 #### Home Page
-<img src="https://matt-mcauley.github.io/assets/img/GymBuddy/home.PNG" alt="Home Page Image" style="height: 500px">
+<img src="https://matt-mcauley.github.io/assets/img/GymBuddy/home.PNG" alt="Home Page Image" style="height: 600px">
 
 <div class="small-space"></div>
 
 #### Programs Page
-<img src="https://matt-mcauley.github.io/assets/img/GymBuddy/programs.PNG" alt="Programs Page Image" style="height: 500px">
+<img src="https://matt-mcauley.github.io/assets/img/GymBuddy/programs.PNG" alt="Programs Page Image" style="height: 600px">
 
 <div class="small-space"></div>
 
 #### Music Page
-<img src="https://matt-mcauley.github.io/assets/img/GymBuddy/music.PNG" alt="Music Page Image" style="height: 500px">
+<img src="https://matt-mcauley.github.io/assets/img/GymBuddy/music.PNG" alt="Music Page Image" style="height: 600px">
 
 <div class="small-space"></div>
 
 #### Video Demo
 
 <div style="text-align: left;">
-  <video width="889" height="500" controls>
+  <video width="80%" controls>
     <source src="https://matt-mcauley.github.io/assets/img/GymBuddy/video.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
