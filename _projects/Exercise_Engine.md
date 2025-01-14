@@ -39,7 +39,7 @@ The backend of our website is a python app built using the Flask framework. It l
 of the main methods we learned in class for building an effective IR system. It then uses cosine similarity between document embeddings to return the top 5 most similar results 
 that fit within the filters provided by the frontend. For the drop-down querying, it uses a document-document similarity matrix to determine the most similar exercises to the one picked
 from the dataset. For the ad-hoc querying, it uses a term-document similarity matrix to determine the most similar exercises the words in the query. The JSON response returned to the frontend
-also contains the exercise description, muscle groups, equipment used, most relevant YouTube search, and similarity score. The reviews displayed are crowdsourced from[bodybuilding.com](https://bodybuilding.com).
+also contains the exercise description, muscle groups, equipment used, most relevant YouTube search, and similarity score. The reviews displayed are crowdsourced from [bodybuilding.com](https://bodybuilding.com).
 
 We decided to use webscraping to acquire our dataset because we had difficulty finding any pre-existing datasets that were suitable for our project on websites such as kaggle. Our professor prohibited simple
 table lookups such as returning exercises that used the same body part, and we instead had to do some sort of text mining. Webscraping allowed us to get a decent sized corpus of exercises with long enough
@@ -47,7 +47,7 @@ descriptions such that SVD could effectively be run on them to create meaningful
 results. For comparing other datasets such as books, there is an extensive amount of text to work with and the SVD embeddings are much more effective. This was the biggest roadblock we faced, and we never
 came to an effective solution for where to source good descriptions from because most are proprietary.
 
-Once the class concluded, I decided that it would be a fun project to fork and try and host on the cloud. I created a Dockerfile to containerize the project and familiarized myself with building
+Once the class concluded, I decided that it would be a fun exercise to fork and try and host on the cloud. I created a Dockerfile to containerize the project and familiarized myself with building
 images and running containers as well as pushing to Docker Hub. I also learned about using AWS to create an EC2 VM instance and how to SSH into it to run the container. I installed vim and Docker on
 the instance so that I was able to pull down the image and run the container. After opening the necessary ports and configuring the security group, I was able to access the website from any local machine
 through the public IP address.
