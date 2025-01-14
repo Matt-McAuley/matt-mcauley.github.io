@@ -56,7 +56,7 @@ ninja.data = [{
           title: 'Etch-A-Sketch',
           description: "Web-based Etch-A-Sketch recreation",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Etch_A_Sketch/";
+              window.location.href = "/projects/Etch-A-Sketch/";
             },},{id: "projects-exercise-engine",
           title: 'Exercise Engine',
           description: "Information retrieval system for exercises",
