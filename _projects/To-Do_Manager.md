@@ -55,8 +55,8 @@ on OCI and used PuTTY to SSH into the instance and run the container. I had to o
 vim and Docker on the VM to get the container running. The process was very similar to AWS so it was much more straightforward this time with the only difference being that I had to use Docker buildx to build
 for a different architecture.
 
-This project is something I'm very proud of because it has been something I've been developing over many months, and I've learned a lot about web development in the process. Starting with a simple static website
-and then continuing to add new technologies and concepts as I learned them has been a great way to reinforce my learning. There were many design decisions that I had to make along the way, and I'm happy with how the
+This project is something I'm very proud of because I've been developing it over many months, and I've learned a lot about web development in the process. Starting with a simple static website
+and then continuing to add new technologies and concepts as I learned them has been a great way to reinforce my understanding. There were many design decisions that I had to make along the way, and I'm happy with how the
 website turned out in the end. I'm excited to continue to work on this project and add new features as I learn about them. Overall, this project taught me about building a React frontend, using Typescript, client side vs
 server side routing, creating a Flask API, using SQLAlchemy and ORMs, user authentication, and hosting a website on the cloud.
 
