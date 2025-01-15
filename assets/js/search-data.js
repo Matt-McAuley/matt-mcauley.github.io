@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-publications",
-          title: "Publications",
-          description: "No publications yet.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
         },{id: "projects-calculator",
           title: 'Calculator',
           description: "Browser calculator with basic arithmetic operations",
