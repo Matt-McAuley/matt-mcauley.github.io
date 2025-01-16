@@ -77,6 +77,11 @@ Password: password
 
 <div class="small-space"></div>
 
+#### Sign Up Page
+<img src="https://matt-mcauley.github.io/assets/img/To-Do_Manager/signup.png" alt="Sign Up Page Image" style="width: 95%">
+
+<div class="small-space"></div>
+
 #### Login Page
 <img src="https://matt-mcauley.github.io/assets/img/To-Do_Manager/login.png" alt="Login Page Image" style="width: 95%">
 
