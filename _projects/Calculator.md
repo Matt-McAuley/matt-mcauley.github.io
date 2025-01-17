@@ -9,7 +9,7 @@ category: ' '
 
 
 ## GitHub Repository
-[Calculator](https://github.com/Matt-McAuley/calculator)
+[Calculator](https://github.com/Matt-McAuley/Calculator)
 
 <div class="small-space"></div>
 
@@ -31,7 +31,7 @@ was designed using Javascript, HTML, and CSS.
 <div class="small-space"></div>
 
 ## Online Hosting
-The website is hosted on [GitHub Pages](https://matt-mcauley.github.io/calculator).
+The website is hosted on [GitHub Pages](https://matt-mcauley.github.io/Calculator).
 
 <div class="small-space"></div>
 

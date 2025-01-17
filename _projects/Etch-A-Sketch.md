@@ -9,7 +9,7 @@ category: ' '
 
 
 ## GitHub Repository
-[Etch-A-Sketch](https://github.com/Matt-McAuley/etch-a-sketch)
+[Etch-A-Sketch](https://github.com/Matt-McAuley/Etch-A-Sketch)
 
 <div class="small-space"></div>
 
@@ -30,7 +30,7 @@ gradually darken in color, and clearing the drawing board. It was designed using
 <div class="small-space"></div>
 
 ## Online Hosting
-The website is hosted on [GitHub Pages](https://matt-mcauley.github.io/etch-a-sketch).
+The website is hosted on [GitHub Pages](https://matt-mcauley.github.io/Etch-A-Sketch).
 
 <div class="small-space"></div>
 
