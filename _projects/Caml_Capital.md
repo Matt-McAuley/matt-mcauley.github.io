@@ -86,7 +86,7 @@ A demo video displaying the main functionalities can be found below.
 
 <div class="small-space"></div>
 
-## Running locally (requires dune and opam)
+## Running locally (Linux/MacOS - requires dune and opam)
 
 <div class="small-space"></div>
 
